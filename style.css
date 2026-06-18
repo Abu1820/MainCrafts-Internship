@@ -62,7 +62,7 @@ section {
     top: 100%;
     left: 0;
     background: white;
-    min-width: 180px;
+    min-width: 190px;
     list-style: none;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -71,6 +71,11 @@ section {
 
 .dropdown-menu li {
     padding: 12px;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 5px;
 }
 
 .dropdown-menu li:hover {
