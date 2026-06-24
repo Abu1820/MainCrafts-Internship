@@ -4,28 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MainCrafts Landing Page</title>
+    <title>MainCrafts - Home</title>
 
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <!-- CSS File -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Header -->
     <header>
         <nav class="navbar">
-            <div class="logo">MainCrafts</div>
 
+            <div class="logo">MainCrafts</div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#features">Features</a></li>
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="about.html">About</a></li>
 
                 <li class="dropdown">
                     <a href="#">Services</a>
@@ -40,27 +40,31 @@
                     </ul>
                 </li>
 
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
+
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
+    <section class="hero">
+
         <div class="hero-content">
+
             <h1>Build Smarter with MainCrafts</h1>
 
             <p>
                 Transform your ideas into powerful digital solutions.
-                Fast, responsive, and scalable web experiences.
+                Fast, responsive and scalable web experiences.
             </p>
 
-            <a href="#features" class="btn">Get Started →</a>
+            <a href="about.html" class="btn">Learn More</a>
+
         </div>
+
     </section>
 
-    <!-- Features Section -->
-    <section id="features" class="features">
+    <section class="features">
+
         <h2>Our Features</h2>
 
         <div class="feature-container">
@@ -74,35 +78,35 @@
             <div class="feature-card">
                 <i class="fas fa-mobile-alt"></i>
                 <h3>Responsive</h3>
-                <p>Looks perfect on desktop, tablet, and mobile devices.</p>
+                <p>Works perfectly on all devices.</p>
             </div>
 
             <div class="feature-card">
                 <i class="fas fa-chart-line"></i>
                 <h3>Scalable</h3>
-                <p>Built to grow with your business needs.</p>
+                <p>Built to grow with your business.</p>
             </div>
 
             <div class="feature-card">
                 <i class="fas fa-shield-alt"></i>
                 <h3>Secure</h3>
-                <p>Reliable and secure solutions for your projects.</p>
+                <p>Reliable and secure solutions.</p>
             </div>
 
         </div>
+
     </section>
 
-    <!-- Footer -->
-    <footer id="contact">
+    <footer>
+
         <p>© 2026 MainCrafts. All Rights Reserved.</p>
 
         <div class="footer-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms</a>
-            <a href="#">Contact</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
         </div>
-    </footer>
 
-</body>
+    </footer>
+<script src="script.js"></script></body>
 
 </html>

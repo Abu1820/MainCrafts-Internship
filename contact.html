@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact MainCrafts</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">MainCrafts</div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="contact-page">
+
+        <div class="contact-box">
+
+            <h1>Contact Us</h1>
+
+            <form name="contactForm" onsubmit="return validateForm()">
+
+                <input type="text" name="name" placeholder="Enter Your Name">
+
+                <input type="email" name="email" placeholder="Enter Your Email">
+
+                <textarea name="message" rows="6" placeholder="Enter Your Message"></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
